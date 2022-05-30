@@ -28,7 +28,7 @@ img{
   position:fixed;
   margin-top: 20px;
 }
-a{
+header a{
   border: 1px solid lightgray;
   text-decoration: none;
   padding: 14px 19px;
@@ -43,4 +43,16 @@ a{
 a:hover {
   background-color: white;
   color: gray;
+}
+
+footer{
+  text-align: center;
+  margin-top: 10px;
+  color: grey;
+  font-size: 13px;
+}
+
+footer a{
+  color: black;
+  text-decoration: none;
 }
