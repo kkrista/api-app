@@ -52,11 +52,11 @@ function App() {
         </a>{" "}
         and{" "}
         <a
-          href="https://upbeat-nobel-41a5b2.netlify.app/"
+          href="https://kkrista.github.io/api-app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          hosted on Netlify
+          hosted on Github Pages
         </a>
       </footer>
     </div>
