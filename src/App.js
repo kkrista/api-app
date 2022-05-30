@@ -8,12 +8,6 @@ function App() {
       <header className="App-header">
         <div className="container">
           <div className="box">
-            {/* <div className="row">
-              <div className="col">
-                
-                <h1>What do you need?</h1>
-              </div>
-            </div> */}
             <div className="row">
               <div className="col-6">
                 <a
@@ -37,7 +31,6 @@ function App() {
               </div>
             </div>
           </div>
-          
         </div>
       </header>
       {/* <div className="logo">
