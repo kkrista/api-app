@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+
+import "./App.css";
+import logo from "./img/whatdoyouneed.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="container">
+          <div className="box">
+            {/* <div className="row">
+              <div className="col">
+                
+                <h1>What do you need?</h1>
+              </div>
+            </div> */}
+            <div className="row">
+              <div className="col-6">
+                <a
+                  className="weatherApp"
+                  href="https://reverent-bhaskara-6bb4e2.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Weather
+                </a>
+              </div>
+              <div className="col-6">
+                <a
+                  className="dictionaryApp"
+                  href="https://upbeat-nobel-41a5b2.netlify.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Dictionary
+                </a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
       </header>
+      {/* <div className="logo">
+          <img src={logo} max-width="100%" />
+        </div> */}
     </div>
   );
 }
